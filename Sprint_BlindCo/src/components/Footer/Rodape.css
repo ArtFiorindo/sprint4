@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a1b62;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #e9ecef;
+    border-top: 1px solid #e9ecef;
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+    width: 100vw;
+    position: relative;
+    bottom: auto;
+    margin-top: auto;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #e9ecef;
+    font-family: sans-serif;
+  }

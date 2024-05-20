@@ -1,0 +1,49 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/nomes/Nome.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px; /* Define uma largura máxima para o container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    box-shadow: 0 4px 8px 0 rgba(0, 82, 125, 0.465); /* Sombra aplicada */
+    border-radius: 10px;
+    background-color: white;
+}
+
+.member {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.member-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.member-image {
+    width: 100%; 
+    height: 200px; 
+    -o-object-fit: cover; 
+       object-fit: cover; 
+    border-radius: 10%;
+}
+
+.member p {
+    margin: 0;
+    padding: 25px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.linkedin-image{
+    width: 50%; 
+}
+

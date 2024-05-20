@@ -1,0 +1,235 @@
+.clear-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+/* Estilo para o conteúdo do cabeçalho */
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end; /* Alinha os elementos à direita */
+}
+
+/* Estilo para o botão do menu */
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 10px; /* Ajuste conforme necessário */
+}
+
+/* Estilo para o ícone do menu */
+.menu-icon {
+    width: 40px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.menu-button:hover{
+    background-color: #d7f4ff; 
+    border: 0px; 
+    cursor: pointer; 
+    width: 40px;
+    border-radius: 20px;
+}
+
+
+.sales-icon {
+    width: 13vw;
+}
+
+
+.login-icon {
+    margin-left: -70px;
+    width: 20px; 
+    height: auto;
+}
+
+.login-button {
+    background-color: #50fc00; 
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    width: 7vw;
+    height: 6vh;
+}
+
+
+.login-button:hover {
+    background-color: #8dff98; 
+}
+
+
+.search-input {
+    margin-right: 20px; 
+    padding: 5px;
+    border: 1px solid #cccccc;
+    width: 7vw; 
+    border-radius: 20px;
+}
+
+
+.search-input:focus {
+    border-color: #0070d2; 
+    outline: none; 
+}
+
+
+.search-button {
+    border: 0px;
+    background-color: none;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+    margin-right: 40px; 
+}
+
+.search-button:hover {
+    cursor: pointer;
+    transform: scale(1.3); /* Aumenta o tamanho da imagem em 10% */
+    transition: transform 0.5s ease-in-out; 
+    
+}
+
+.search-button img{
+    width: 2vw;
+}
+
+
+@media (max-width: 768px) {
+    .header-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        margin-right: 0;
+    }
+
+    .search-input {
+        width: 100%; 
+    }
+
+    .login-icon {
+        width: 25px; 
+    }
+}
+
+
+.imgBlind img {
+    width: 80px;
+    margin-top: 18px;
+    margin-right: 30px;
+   
+}
+
+
+.search-login-section {
+    display: flex;
+    align-items: center; 
+}
+a{
+    color: #0070d2;
+}
+.login-button :link{
+    text-decoration: none;
+}
+.login-button a{
+    color: #000;
+    margin-left: -40px;
+}
+
+.link-list {
+    text-align: center; 
+    width: 60vw;
+    margin-right: 10vw;
+  }
+ 
+ .link-list li {
+   display: inline-block;
+   margin-right: 15px;
+   padding-right: 25px;
+   font-size: 15px;
+ }
+ 
+ .link-list li:last-child {
+   margin-right: 0;
+ }
+ 
+ .nav-link {
+   text-decoration: none;
+   color: #333; /* Cor padrão dos links */
+   transition: color 0.3s; /* Transição de cor durante o hover */
+ }
+ 
+ .nav-link:hover {
+   color: #007bff; /* Cor do link durante o hover */
+   transform: scale(1.3); 
+   transition: transform 0.5s ease-in-out; 
+ }
+
+
+/*/////////////responsividade/////////////// */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-content {
+         justify-content: space-between; /* Adjust alignment for medium-sized screens */
+     }
+    .search-input {
+         width: 60%; /* Adjust input width for better usability */
+     }
+ }
+ 
+ @media (min-width: 1025px) {
+    .header-content {
+         justify-content: flex-end; /* Align items to the right on larger screens */
+     }
+    .search-input {
+         width: 45%; /* Further reduce input width on extra-large screens */
+     }
+ }
+ 
+ /* Ensure images and icons scale properly */
+ img,.menu-icon {
+     max-width: 80%;
+     height: auto;
+ }
+ 
+ /* Typography adjustments for readability */
+ body {
+     font-size: 16px; /* Base font size */
+ }
+ 
+ @media (min-width: 769px) {
+     body {
+         font-size: 18px; /* Increase base font size for larger screens */
+     }
+ }
+ 
+ @media (min-width: 1025px) {
+     body {
+         font-size: 20px; /* Even larger font size for extra-large screens */
+     }
+ }
+ 
+ .logout-button{
+    margin-left: 1vw;
+    
+ }
+
+ .logout-button:hover{
+    color: rgb(255, 88, 88);
+    transition: 0.5s;
+    
+ }
+ 
+ 

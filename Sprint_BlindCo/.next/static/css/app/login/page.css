@@ -1,0 +1,81 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/login/login.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    
+ 
+   }
+   
+   .tabs {
+    display: flex;
+    justify-content: center;
+   }
+   
+   .tabs button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 0; 
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+   }
+   
+   .tabs .active {
+    background-color: #0070d2;
+    color: #fff;
+    border-bottom: none;
+   }
+   
+   .tabs button:hover {
+    background-color: #e0e0e0;
+    color: black;
+    transition: 0.5s;
+   }
+   
+   .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px; 
+    height: auto; 
+    padding: 30px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20vh;
+   }
+   
+   .content input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+   }
+   
+   .content button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0070d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 20px; 
+   }
+   
+   .content button:hover {
+    background-color: #005680;
+   }
+   .logo-login{
+    width: 20vw;
+   }
+   

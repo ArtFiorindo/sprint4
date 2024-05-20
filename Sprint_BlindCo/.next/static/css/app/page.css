@@ -1,0 +1,78 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/Home.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.landing-page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .contentHome {
+    flex: 1;
+    margin-bottom: 20vh;
+    width: 50vw;
+    background-color: transparent;
+    margin-left: 2vw;
+    margin-right: 1vw;
+    margin-top: 15vh;
+  }
+  
+  .inner-content{
+    width: 50vw;
+    margin-left: 4vw;
+  }
+  
+  .imageLanding {
+    margin-right: 20px;
+    width: 40vw;
+    height: auto;
+  }
+  
+  /* Estilos opcionais para melhorar a aparência */
+  .title {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #003670;
+    text-align: start;
+  }
+  
+  .supporting-text {
+    font-size: 21px;
+    margin-bottom: 25px;
+    text-align: start;
+    margin-left: 28px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em várias linhas */
+  }
+  
+  .buttonHome1,.buttonHome2 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Centraliza os botões horizontalmente */
+    max-width: calc(50% - 20px); /* Deixa espaço entre os botões */
+    font-size: 18px;
+  }
+  
+  .buttonHome1:hover,.buttonHome2:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+   .buttonHome1,.buttonHome2 {
+      margin: 10px auto; /* Adiciona margem superior/inferior para separar os botões */
+      max-width: 100%; /* Permite que os botões ocupem toda a largura disponível */
+    }
+  }
+  

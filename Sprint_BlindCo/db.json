@@ -1,0 +1,43 @@
+{
+  "rules": {
+    "/users": {
+      "PATCH": true
+    }
+  },
+  "users": [
+    {
+      "id": "4",
+      "username": "admin",
+      "password": "123",
+      "firstName": "admin",
+      "lastName": "fiapinho",
+      "email": "admin@fiap.com",
+      "phone": "11 999999999",
+      "role": "Chefe",
+      "company": "FIAP"
+    },
+    {
+      "id": "2",
+      "username": "Fiap",
+      "password": "1234",
+      "firstName": "Artur",
+      "lastName": "Lopes",
+      "email": "fiap@gmail.com",
+      "phone": "11 999999999",
+      "role": "Estagiario",
+      "company": "FIAP"
+    },
+    {
+      "id": "3",
+      "username": "TesteFiap",
+      "password": "1234",
+      "firstName": "Artur",
+      "lastName": "Lopes",
+      "email": "fiap@gmail.com",
+      "phone": "11 999999999",
+      "role": "Estagiario",
+      "company": "FIAP"
+    }
+  ],
+  "preferences": []
+}
